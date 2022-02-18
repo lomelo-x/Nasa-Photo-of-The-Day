@@ -59,8 +59,8 @@ const StyledCardExplanation = styled.div`
 `;
 export default function Card(props) {
 	const { data } = props;
-	console.log(props);
-	console.log('Hello I am the render of Card.js');
+	// console.log(props);
+	// console.log('Hello I am the render of Card.js');
 
 	return (
 		<StyledCard>
@@ -72,6 +72,7 @@ export default function Card(props) {
 				<h4>{data.date}</h4>
 				<StyledCardExplanation>
 					<p>{data.explanation}</p>
+					<p>Image © {data.copyright}</p>
 				</StyledCardExplanation>
 			</StyledCardInfo>
 		</StyledCard>
