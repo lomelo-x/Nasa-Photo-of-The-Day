@@ -59,8 +59,8 @@ const StyledCardExplanation = styled.div`
 `;
 export default function Card(props) {
 	const { data } = props;
-	console.log(props);
-	console.log('Hello I am the render of Card.js');
+	// console.log(props);
+	// console.log('Hello I am the render of Card.js');
 
 	return (
 		<StyledCard>
